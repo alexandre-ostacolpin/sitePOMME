@@ -1,0 +1,140 @@
+
+        body {
+            margin: 10px 0;
+            text-align: center;
+            /* typo taille en .em et famille, propriété raccourcie  */
+            font: 0.8em "trebuchet MS", Helvetica, sans-serif;
+            background: #dea;
+        }
+
+        /* L'id conteneur ici il est affecté à une div de la page la notation div#conteneur ou #conteneur est identique  */
+        div#conteneur {
+            margin: 0 auto;
+            width: 770px;
+            border: 2px solid #ab4;
+            /* En hexadécimal il existe 16 millions de couleur  */
+            /* il existe les couleurs RGBA Red Green Blue Alphe alphe joue sur l'opacité de la couleur */
+            background: #fff;
+
+            text-align: left;
+        }
+
+        h1#header {
+            margin: 0;
+            height: 258px;
+            /* Une image en arrière plan dans le css  */
+            /* background-image: url(img/apple.jpg);
+            background-repeat: no-repeat;
+            background-position-x: left;
+            background-position-y: bottom; */
+            background: url(../img/apple.jpg) no-repeat left top;
+            
+        }
+
+        h1#header a {
+            display: block;
+            width: 400px;
+            height: 70px;
+            background: url(../img/title.gif) no-repeat;
+            /* La position de l'élément a est relative à son parent  */
+            position: relative;
+            left: 300px;
+            top: 15px;
+            /* indentation négative du texte afin de le masquer pour les visiteurs et de le laisser dans le code pour les robots, ou les moteurs de recherche qui indexent le site ; action de référencement naturel  */
+            text-indent: -5000px;
+        }
+
+        ul#menu {
+            list-style-type: none;
+            height: 35px;
+            margin: 0; 
+            padding: 0;
+            /* L'image de fond est répétée horizontalement  */
+            background: url(../img/bg_menu.gif) repeat-x 0 -25px;
+        }
+
+        ul#menu li {
+            float: left;
+            text-align: center;
+        }
+
+        ul#menu li a {
+            /* Le bloc , la boite */
+            display: block;
+            width: 130px;
+            line-height: 25px;
+            border-right: 2px solid #dea;
+            /* La typo  */
+            text-decoration: none;
+            line-height: 25px;
+            font-size: 1.2em;
+            /* épaisseur de typo bold = gras  */
+            font-weight: bold;
+            /* espacement netre les lettre  */
+            letter-spacing: 2px;
+            color: #ffffff;
+        }
+
+        ul#menu li a:hover {
+            background: url(../img/bg_menu.gif) repeat-x 0 0;
+
+        }
+
+        div#contenu {
+            padding: 0 30px 0 100px;
+            /* On crée un espace à gauche et un espace en haut  */
+            background: url(../img/bg_page.gif) no-repeat 15px 15px;
+        }
+
+        div#contenu h2 {
+            padding-left: 25px;
+            background: url(../img/little_apple.gif) no-repeat left bottom;
+            border-bottom: 1px solid #9b2;
+
+            color: #9b2;
+            /* interlignage */
+            line-height: 25px;
+            font-size: 1.4em;
+            /* text-decoration: underline; */
+        }
+
+        div#contenu h3 {
+            margin-left: 15px;
+            padding-left: 5px;
+            border-bottom: 1px solid #9b2;
+            border-left: 3px solid #9b2;
+            color: #9b2;
+        }
+
+        div#contenu p {
+            text-align: justify;
+            text-indent: 2em;
+            line-height: 1.7em;
+        }  
+        
+        div#contenu blockquote {
+            border-left: 5px solid #9b2;
+            padding-left: 10px;
+        }
+
+        .texte-a-droite {
+            text-align: right;
+            color: #9b2;
+
+        }
+
+        div#contenu a {
+            color: #8a0;
+        }
+
+        div#contenu a:hover {
+            color: #9b2;
+        }
+
+        p#footer {
+            margin: 0;
+            padding-right: 10px;
+            line-height: 30px;
+            text-align: right;
+            color: #8a0;
+        }
