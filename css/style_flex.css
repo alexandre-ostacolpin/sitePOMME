@@ -1,0 +1,200 @@
+body {
+    background-color: #dea;
+    margin: 10px 0;
+    font: 0.8em "trebuchet MS", Helvetica, sans-serif;
+}
+
+#conteneur {
+    width: 770px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #ab4;
+    text-align: left;
+}
+
+.pomme {
+    height: 258px;
+    background: url(../img/apple.jpg) no-repeat left top;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+header h1 a {
+    background: url(../img/title.gif) no-repeat;
+    /* width: 450px; */
+    height: 70px;
+    display: block;
+    text-indent: -5000px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav li  {
+    list-style-type: none;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+    background: url(../img/bg_menu.gif) repeat-x 0 -25px;
+}
+
+nav li a {
+    text-decoration: none;
+    width: 130px;
+    border-right: 2px solid #dea;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+#contenu {
+    display: flex;
+}
+
+
+aside {
+    background: url(../img/bg_page.gif) no-repeat;
+    background-position: top center;
+    margin-top: 20px;
+}
+
+h2 {
+    background: url(../img/little_apple.gif) no-repeat left bottom;
+    padding-left: 25px;
+    color: #99bb22;
+    border-bottom: 1px solid #9b2;
+    line-height: 25px;
+    width: 600px;
+}
+
+h3 {
+    border-left: 3px solid #9b2;
+    border-bottom: 1px solid #9b2;
+    padding-left: 5px;
+    color: #9b2;
+    margin-left: 15px;
+    width: 600px;
+}
+
+p {
+    line-height: 1.7em;
+    text-indent: 2em;
+    text-align: justify;
+    padding: 0 20px 0 0;
+}
+
+blockquote {
+    border-left: 5px solid #9b2;
+    padding-left: 10px;
+}
+
+.a-droite {
+    color: #9b2;
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+    color: #9b2;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    /* cette valeur est la largeur en % d'une colonne si je veux la largeur de 2 colonnes je fais la largeur d'une colonne 2 */
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.666666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.col-5 {
+    width: 41.666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333%;
+}
+
+.col-8 {
+    width: 66.666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333333%;
+}
+
+.col-11 {
+    width: 91.666666%; 
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* les marges à gauche pour créer si on le veut des colonnes vides */
+.marge-1 {
+    margin-left: 8.333333%;
+}
+.marge-2 {
+    margin-left: 16.66666%;
+}
+.marge-3 {
+    margin-left: 25%;
+}
+.marge-4 {
+    margin-left: 33.333333%;
+}
+.marge-5 {
+    margin-left: 41.666666%;
+}
+.marge-6 {
+    margin-left: 50%;
+}
+.marge-7 {
+    margin-left: 58.333333%;
+}
+.marge-8 {
+    margin-left: 66.666666%;
+}
+.marge-9 {
+    margin-left: 75%;
+}
+.marge-10 {
+    margin-left: 83.333333%;
+}
+.marge-11 {
+    margin-left: 91.666666%;
+}
